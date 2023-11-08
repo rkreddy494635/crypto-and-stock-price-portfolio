@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> STOCK TRACKER</title>
+        <button type="button"  onclick="location.href='http://127.0.0.1:5500/portfolio.html'">HOME</button>
+
+        <h1>
+            STOCK TRACKER
+        </h1>
+        <body>
+            <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/" rel="noopener" target="_blank"><span class="blue-text">Markets today</span></a> by TradingView</div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+    {
+    "symbols": [
+      {
+        "description": "",
+        "proName": "NSE:ITC"
+      },
+      {
+        "description": "",
+        "proName": "NASDAQ:TSLA"
+      },
+      {
+        "description": "",
+        "proName": "NASDAQ:AAPL"
+      },
+      {
+        "description": "",
+        "proName": "NASDAQ:NVDA"
+      },
+      {
+        "description": "",
+        "proName": "NASDAQ:AMZN"
+      },
+      {
+        "description": "",
+        "proName": "NASDAQ:MSFT"
+      },
+      {
+        "description": "",
+        "proName": "NASDAQ:META"
+      },
+      {
+        "description": "",
+        "proName": "NASDAQ:AMD"
+      },
+      {
+        "description": "",
+        "proName": "NASDAQ:GOOGL"
+      },
+      {
+        "description": "",
+        "proName": "NASDAQ:GOOG"
+      },
+      {
+        "description": "",
+        "proName": "NSE:HDFCBANK"
+      },
+      {
+        "description": "",
+        "proName": "NSE:RELIANCE"
+      },
+      {
+        "description": "",
+        "proName": "NSE:AXISBANK"
+      },
+      {
+        "description": "",
+        "proName": "NASDAQ:PTPI"
+      },
+      {
+        "description": "",
+        "proName": "NSE:ICICIBANK"
+      },
+      {
+        "description": "",
+        "proName": "NSE:TATAMOTORS"
+      },
+      {
+        "description": "",
+        "proName": "NSE:TCS"
+      },
+      {
+        "description": "",
+        "proName": "BSE:KOTAKBANK"
+      }
+    ],
+    "showSymbolLogo": true,
+    "colorTheme": "dark",
+    "isTransparent": false,
+    "displayMode": "adaptive",
+    "locale": "en"
+  }
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+  <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/markets/" rel="noopener" target="_blank"><span class="blue-text">Market summary</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+  {
+  "width": "1000",
+  "height": "490",
+  "symbolsGroups": [
+    {
+      "name": "Indices",
+      "originalName": "Indices",
+      "symbols": [
+        {
+          "name": "FOREXCOM:SPXUSD",
+          "displayName": "S&P 500"
+        },
+        {
+          "name": "FOREXCOM:NSXUSD",
+          "displayName": "US 100"
+        },
+        {
+          "name": "FOREXCOM:DJI",
+          "displayName": "Dow 30"
+        },
+        {
+          "name": "INDEX:NKY",
+          "displayName": "Nikkei 225"
+        },
+        {
+          "name": "INDEX:DEU40",
+          "displayName": "DAX Index"
+        },
+        {
+          "name": "FOREXCOM:UKXGBP",
+          "displayName": "UK 100"
+        },
+        {
+          "name": "NYSE:K"
+        },
+        {
+          "name": "NASDAQ:META"
+        },
+        {
+          "name": "NASDAQ:AMZN"
+        },
+        {
+          "name": "NASDAQ:AAPL"
+        },
+        {
+          "name": "NASDAQ:MSFT"
+        },
+        {
+          "name": "NASDAQ:TSLA"
+        },
+        {
+          "name": "NASDAQ:ASTR"
+        },
+        {
+          "name": "NASDAQ:NFLX"
+        },
+        {
+          "name": "NYSE:F"
+        },
+        {
+          "name": "NSE:VOLTAS"
+        },
+        {
+          "name": "BET:VOLKSWAGEN"
+        },
+        {
+          "name": "NSE:BLUESTARCO"
+        },
+        {
+          "name": "NSE:HDFCBANK"
+        },
+        {
+          "name": "NSE:INFY"
+        },
+        {
+          "name": "NSE:RELIANCE"
+        },
+        {
+          "name": "NSE:ICICIBANK"
+        },
+        {
+          "name": "NSE:SBIN"
+        },
+        {
+          "name": "NSE:AXISBANK"
+        },
+        {
+          "name": "NSE:KOTAKBANK"
+        },
+        {
+          "name": "NSE:TCS"
+        },
+        {
+          "name": "NSE:TATAMOTORS"
+        },
+        {
+          "name": "NSE:ITC"
+        },
+        {
+          "name": "NSE:BAJFINANCE"
+        },
+        {
+          "name": "NSE:INDUSINDBK"
+        },
+        {
+          "name": "NSE:ADANIENT"
+        },
+        {
+          "name": "NSE:ASIANPAINT"
+        },
+        {
+          "name": "NSE:TECHM"
+        },
+        {
+          "name": "NYSE:JNJ"
+        },
+        {
+          "name": "NSE:WIPRO"
+        },
+        {
+          "name": "SET:TENCENT80"
+        },
+        {
+          "name": "NASDAQ:NVDA"
+        },
+        {
+          "name": "BMFBOVESPA:ATVI34"
+        },
+        {
+          "name": "SIX:KO"
+        },
+        {
+          "name": "NASDAQ:PEP"
+        },
+        {
+          "name": "NSE:IOC"
+        },
+        {
+          "name": "NSE:BPCL"
+        },
+        {
+          "name": "NSE:TATASTEEL"
+        },
+        {
+          "name": "NSE:ROLEXRINGS"
+        },
+        {
+          "name": "NYSE:TM"
+        },
+        {
+          "name": "LSE:RR."
+        },
+        {
+          "name": "BSE:BMW"
+        },
+        {
+          "name": "BET:MERCEDESBENZ"
+        },
+        {
+          "name": "CAPITALCOM:SNAP"
+        },
+        {
+          "name": "NSE:MAHINDCIE"
+        },
+        {
+          "name": "NSE:RPOWER"
+        },
+        {
+          "name": "NSE:BHARTIARTL"
+        },
+        {
+          "name": "SIX:WMT"
+        },
+        {
+          "name": "MIL:RACE"
+        },
+        {
+          "name": "LSE:RR."
+        },
+        {
+          "name": "TADAWUL:2223"
+        },
+        {
+          "name": "BSE:IOB"
+        },
+        {
+          "name": "NSE:BAJFINANCE"
+        },
+        {
+          "name": "NSE:IDEA"
+        },
+        {
+          "name": "NASDAQ:FOSL"
+        },
+        {
+          "name": "NSE:AMBUJACEM"
+        },
+        {
+          "name": "NSE:HAVELLS"
+        },
+        {
+          "name": "MYX:MFGROUP"
+        },
+        {
+          "name": "NSE:APOLLOHOSP"
+        },
+        {
+          "name": "NSE:JINDALSTEL"
+        },
+        {
+          "name": "NSE:CANBK"
+        },
+        {
+          "name": "NSE:BOSCHLTD"
+        },
+        {
+          "name": "LSE:0QOT"
+        },
+        {
+          "name": "HOSE:TVS"
+        },
+        {
+          "name": "TSE:7951"
+        },
+        {
+          "name": "NSE:PNB"
+        },
+        {
+          "name": "NSE:UNIONBANK"
+        },
+        {
+          "name": "HERO MOTORS"
+        },
+        {
+          "name": "BSE:OLATECH"
+        },
+        {
+          "name": "NYSE:UBER"
+        },
+        {
+          "name": "NSE:ZOMATO"
+        },
+        {
+          "name": "NSENG:BERGER"
+        },
+        {
+          "name": "NYSE:MCD"
+        },
+        {
+          "name": "NYSE:DOV"
+        },
+        {
+          "name": "NSE:GODFRYPHLP"
+        },
+        {
+          "name": "TSE:9873"
+        },
+        {
+          "name": "NYSE:DPZ"
+        },
+        {
+          "name": "NSE:LT"
+        },
+        {
+          "name": "FWB:LHL"
+        },
+        {
+          "name": "NYSE:DELL"
+        },
+        {
+          "name": "LUXSE:ACMR1"
+        },
+        {
+          "name": "NYSE:BRK.B"
+        },
+        {
+          "name": "LSE:0L2T"
+        },
+        {
+          "name": "NYSE:TSM"
+        },
+        {
+          "name": "BSE:VISTARAMAR"
+        },
+        {
+          "name": "NSE:INDIGO"
+        },
+        {
+          "name": "NSE:SPICEJET"
+        },
+        {
+          "name": "NYSE:HLF"
+        },
+        {
+          "name": "NSE:DRREDDY"
+        },
+        {
+          "name": "NSE:CIPLA"
+        },
+        {
+          "name": "NSE:SUNPHARMA"
+        },
+        {
+          "name": "NSE:DABUR"
+        },
+        {
+          "name": "BRAZZERS"
+        },
+        {
+          "name": "BMFBOVESPA:NIKE34"
+        },
+        {
+          "name": "NYSE:ORCL"
+        },
+        {
+          "name": "FWB:PUMA"
+        },
+        {
+          "name": "NSE:INTELLECT"
+        },
+        {
+          "name": "NEO:VISA"
+        },
+        {
+          "name": "BSE:BANKBARODA"
+        },
+        {
+          "name": "NYSE:BML/PG"
+        },
+        {
+          "name": "JP MORGAN"
+        }
+      ]
+    },
+    {
+      "name": "Futures",
+      "originalName": "Futures",
+      "symbols": [
+        {
+          "name": "CME_MINI:ES1!",
+          "displayName": "S&P 500"
+        },
+        {
+          "name": "CME:6E1!",
+          "displayName": "Euro"
+        },
+        {
+          "name": "COMEX:GC1!",
+          "displayName": "Gold"
+        },
+        {
+          "name": "NYMEX:CL1!",
+          "displayName": "Crude Oil"
+        },
+        {
+          "name": "NYMEX:NG1!",
+          "displayName": "Natural Gas"
+        },
+        {
+          "name": "CBOT:ZC1!",
+          "displayName": "Corn"
+        }
+      ]
+    },
+    {
+      "name": "Bonds",
+      "originalName": "Bonds",
+      "symbols": [
+        {
+          "name": "CME:GE1!",
+          "displayName": "Eurodollar"
+        },
+        {
+          "name": "CBOT:ZB1!",
+          "displayName": "T-Bond"
+        },
+        {
+          "name": "CBOT:UB1!",
+          "displayName": "Ultra T-Bond"
+        },
+        {
+          "name": "EUREX:FGBL1!",
+          "displayName": "Euro Bund"
+        },
+        {
+          "name": "EUREX:FBTP1!",
+          "displayName": "Euro BTP"
+        },
+        {
+          "name": "EUREX:FGBM1!",
+          "displayName": "Euro BOBL"
+        }
+      ]
+    },
+    {
+      "name": "Forex",
+      "originalName": "Forex",
+      "symbols": [
+        {
+          "name": "FX:EURUSD",
+          "displayName": "EUR/USD"
+        },
+        {
+          "name": "FX:GBPUSD",
+          "displayName": "GBP/USD"
+        },
+        {
+          "name": "FX:USDJPY",
+          "displayName": "USD/JPY"
+        },
+        {
+          "name": "FX:USDCHF",
+          "displayName": "USD/CHF"
+        },
+        {
+          "name": "FX:AUDUSD",
+          "displayName": "AUD/USD"
+        },
+        {
+          "name": "FX:USDCAD",
+          "displayName": "USD/CAD"
+        }
+      ]
+    }
+  ],
+  "showSymbolLogo": true,
+  "colorTheme": "dark",
+  "isTransparent": false,
+  "locale": "in"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+        </body>
+        
+    </head>
+</html>
+<style>
+    h1{
+  background-color: black;
+        color: white;
+
+    }
+    .tradingview-widget-copyright {
+    display: none !important;
+}
+body{
+    background-color: black;
+}
+button{
+        background-color: #18f98f;
+        background-size: 0dvh;
+        color: white;
+        border: none;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 3%;
+        left: 89%; 
+        bottom: 98%;
+        padding: 20px 50px;
+        font-size: 20px;
+    }
+</style>
